@@ -1,0 +1,87 @@
+.espacio, .grosor, .ligar  {
+    margin-left: 500px;
+    -webkit-appearance:none;
+    background-color:whitesmoke;
+    width: 20%;
+    border-radius: 12px;
+    
+
+ 
+}
+
+.espacio::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 20px;
+height: 20px;
+background-color: #1A213A;
+border-radius: 50%;
+transition: background-color 0.3s;
+
+}
+
+.grosor::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #1A213A;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    }
+
+.ligar::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 20px;
+height: 20px;
+background-color: #1A213A;
+border-radius: 50%;
+transition: background-color 0.3s;
+
+}
+
+.espacio:hover{
+    background-color: lightgray; 
+}
+
+.ligar:hover {
+    background-color: lightgray; 
+}
+
+.grosor:hover{
+    background-color: lightgray; 
+}
+
+
+.guardar {
+    font-family: "Montserrat";
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    transition: background-color 0.3s; 
+
+}
+
+.guardar:hover {
+    background-color: lightgray; 
+}
+
+.picker {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    transition: background-color 0.3s;
+}
+
+.picker:hover {
+    background-color: lightgray; 
+}
+
+.texto{
+    transition: background-color 0.3s;
+}
+
+.texto:hover {
+    background-color: lightgray; 
+}
